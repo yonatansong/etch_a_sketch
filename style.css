@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.freeDrawGrid {
+  display: flex;
+  flex-direction: column;
+}
+.gridRow {
+  display: flex;
+}
+.gridCell {
+  border: 0.1px black solid;
+  background-color: #eee;
+}
